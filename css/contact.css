@@ -1,0 +1,91 @@
+.grey{
+    background-color: rgb(238, 234, 234);
+}
+
+.grey .map{
+    margin: 0 auto;
+    text-align: center;
+}
+.grey iframe{
+    height: 500px;
+    margin-top: 10px;
+} 
+.form-address{ 
+    display: flex;
+}
+.form{
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.form input{
+    padding: 10px;
+    margin: 5px 0;
+}
+.form button{
+    box-shadow: 2px 2px 5px 1px ;
+    padding: 5px;
+    width: 90px;
+    float: left;
+}
+
+.address{
+    text-align: center;
+    margin: 0 auto;
+    line-height: 35px;
+}
+.address i{
+    color: deeppink;
+    font-size: 20px;
+}
+
+.subscribe{
+    text-align: center;
+    margin-top: 20px;
+    line-height: 20px;
+}
+.subscribe input{
+    padding: 5px;
+    width: 400px;
+    margin-top: 10px;
+}
+.subscribe button{
+    padding: 7px;
+    background-color: deeppink;
+    color: white;
+    border: none;
+}
+
+.black{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid white;
+}
+.black ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.smes i{
+    border: 1px solid white;
+    padding: 5px;
+}
+.black h3{
+
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

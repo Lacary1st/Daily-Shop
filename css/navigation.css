@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+
+.first > div:first-child {
+    width: 40%;
+}
+
+.first > div:last-child{
+    width: 55%;
+}
+.acct{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+    border-left: 1px solid grey;
+}
+
+.acct p {
+    width: 20%;
+    padding: 0 20px;
+}
+
+.lang > select{
+    width: 30%;
+}
+
+.lang p{
+    border-right: 1px solid grey;
+    width: 40%;
+}
+.lang{
+    display: flex;
+    flex-wrap: wrap;
+}
+.acct p{
+    border-right: 1px solid grey;
+}
+.daily{
+    display: flex;
+    flex-wrap:wrap;
+    font-size: 30px;
+
+}
+.daily i{
+    font-size: 50px;
+    color: deeppink;
+}
+#partner{
+    margin-left: 60px;
+}
+
+form.search input[type=text] {
+    padding: 5px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+  }
+  form.search button {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    background: deeppink;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  .second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+.cart i{
+    color: deeppink;
+    font-size: 20px;
+  }
+.cart{
+    text-align: center;
+}
+
+#navbar{
+    overflow: hidden;
+    background-color: deeppink;
+    z-index: -1;
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    list-style-type: none;
+}
+  
+.drop ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:  30px;
+}
+
+li a, .dropdown-content {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.dropdown {
+    display: inline-block;
+    
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:pink;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+  }
+
+.dropdown-content a {
+    color: deeppink;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+
+}
+
+.dropdown-content a:hover {
+    background-color: pink;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.third{
+    background-image: url(../images/men.jpg);
+    height: 500px;
+    background-size: cover;
+}
+.contact{
+ text-align: center;
+ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+    
+}
+.contact a{
+    font-size: 30px;
+    text-decoration: none;
+
+}
+.contact h1{
+    font-size: 60px;
+    margin-top: 200px;
+    color: white;
+}
+#home{
+    color: white;
+}
+
+/*@media screen and (max-width: 800px) {
+    .first > div:first-child {
+        width: 100%;
+    }
+    
+    .first > div:last-child{
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .acct p{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .acct p{
+        width: 50%;
+    }
+}*/
+
+
+@media screen and (max-width: 800px) {
+    .first > div:first-child {
+        width: 100%;
+    }
+    
+    .first > div:last-child{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .search{
+        display: none;
+    }
+   
+    
+    
+}
+
+@media screen and (max-width:500px) {
+    .search{
+        display: none;
+    }
+    .acct p{
+        display: none;
+    }
+    .hidden-nav{
+        display: none;
+    }
+    
+
+    
+}
+
+
+
+@media screen and (max-width: 320px) {
+
+    .lang{
+        display: none;
+    }
+    .acct p{
+        width: 30%;
+        display: none;
+        border-left: none;
+    }
+    .lang p{
+        border-right: none;
+    }
+    .cart{
+        display: none;
+    }
+    .daily{
+        font-size: 20px;
+    }
+    .daily i{
+        font-size: 25px;
+    }
+    .drop ul{
+        width: 40%;
+    }
+
+  
+    
+}

@@ -1,0 +1,85 @@
+.blog{
+    display: flex;
+    justify-content: space-around;
+}
+
+.blogpics{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.props{
+    line-height: 30px;
+    text-align: justify;
+}
+
+.blogpics > div{
+    width: 30%;
+    margin-bottom: 20px;
+}
+.blogpics img{
+    width: 100%;
+    height: 350px;
+}
+.blogpics .heading{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.category h3{
+    color: deeppink;
+    border-bottom: 1px solid deeppink;
+}
+.category .cate{
+    line-height: 30px;
+    padding: 10px;
+}
+.category .tag{
+    line-height: 30px;
+    padding: 10px;
+}
+
+.subscribe{
+    text-align: center;
+    margin-top: 50px;
+    line-height: 20px;
+}
+.subscribe input{
+    padding: 5px;
+    width: 400px;
+    margin-top: 10px;
+}
+.subscribe button{
+    padding: 7px;
+    background-color: deeppink;
+    color: white;
+    border: none;
+}
+
+.black{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid white;
+}
+.black ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.smes i{
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.black h3{
+
+    margin-bottom: 15px;
+}
+
+

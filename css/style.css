@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#frontpage{
+    background-image: url(../images/sneaker.jpg);
+    height: 400px;
+    background-position: center; 
+    position: relative;
+}
+#frontpage h1{
+    /* min-width: 800px; */
+    text-align: center;
+    padding: 0 50px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid deeppink;
+    font-size: 50px;
+}
+
+.men{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+
+    
+}
+
+.props{
+    line-height: 30px;
+    text-align: justify;
+}
+.men > div{
+    width: 20%;
+    margin-bottom: 20px;
+    margin: 0 5px;
+    margin-top: 20px;
+}
+.men img{
+    width: 100%;
+    height: 300px;
+}
+.men button{
+    padding: 5px;
+    background-color: deeppink;
+    border: none;
+    color: white;
+}
+.order{
+    text-align: center;
+    background-color: deeppink;
+    color: white;
+    padding: 10px;
+    width: 15%;
+    margin: 0 550px;
+    border: none;
+    margin-top: 10px;
+}
+iframe{
+    width: 70%;
+    height: 300px;
+    text-align: center;
+    margin: 20px 200px;
+}
+.mix{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.mix > div{
+    width: 20%;
+    margin-bottom: 20px;
+    margin: 0 5px;
+    margin-top: 20px;
+
+}
+.mix img{
+    width: 100%;
+    height: 300px;
+}
+.mix button{
+    padding: 5px;
+    background-color: deeppink;
+    border: none;
+    color: white;
+}
+
+.blacks{
+    background-color: black;
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: space-evenly;
+}
+.blacks > div{
+    margin-top: 20px;
+    text-align: center;
+}
+.blacks i{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.latest{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.latest > div{
+    width: 30%;
+    margin-bottom: 20px;
+    margin: 0 5px;
+    margin-top: 20px;
+}
+.latest img{
+    width: 100%;
+    height: 400px;
+}
+#blog{
+    margin-top: 20px;
+}
+
+.subscribe{
+    text-align: center;
+    margin-top: 50px;
+    line-height: 20px;
+}
+.subscribe input{
+    padding: 5px;
+    width: 400px;
+    margin-top: 10px;
+}
+.subscribe button{
+    padding: 7px;
+    background-color: deeppink;
+    color: white;
+    border: none;
+}
+
+.black{
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid white;
+}
+.black ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.smes i{
+    border: 1px solid white;
+    padding: 5px;
+}
+.black h3{
+    margin-top: 20px;
+    color: deeppink;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .men > div {
+        width: 31.2%;
+    }
+
+    .frontpg iframe{
+     width: 100%; 
+     margin: 0 100px;  
+     
+    }
+    .mix > div {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .men > div {
+        width: 45%;
+    }
+
+    .frontpg iframe{
+        width: 100%; 
+        margin: 0 50px;  
+    }
+
+    .latest > div{
+    width: 50%;
+    }
+
+    .black > div{
+        
+        width: 40%;
+        
+    }
+
+    
+
+}
+
+@media screen and (max-width: 320px) {
+    .men > div {
+        width: 100%;
+    }
+    #frontpage h1{
+        min-width: 20%;
+        font-size: 30px;
+    }
+    .frontpg iframe{
+        width: 100%;
+        margin: 0 15px;
+    }
+    .mix > div{
+        width: 100%;
+    }
+    .latest > div{
+        width: 100%;
+    }
+}
+
+
