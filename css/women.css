@@ -33,6 +33,7 @@
 }
 
 #products > div{
+    flex-wrap: wrap;
     width: 30%;
     margin-bottom: 20px;
 }
@@ -71,6 +72,7 @@
     background-color: black;
     color: white;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     border-bottom: 1px solid white;
 }
@@ -84,16 +86,44 @@
     padding: 5px;
 }
 .black h3{
-    
-                    margin-top: 20px;
-                    color: deeppink;
-                    margin-bottom: 15px;
+    margin-top: 20px;
+    color: deeppink;
+    margin-bottom: 15px;
     
 }
 
 
 @media screen and (max-width: 800px) {
-
+    #products > div{
+        width: 40%;
+    }
+    .hide{
+        display: none;
+    }
 }
+
+@media  screen and (max-width:600px) {
+    .latest > div{ 
+        width: 50%;
+        }
+    
+    .black > div{
+         width: 40%;
+         margin-left: 20px;
+    }
+    .category{
+        display: none;
+    }
+    .acct{
+        display: none;
+    }
+    
+}
+
+@media  screen and (max-width:600px) {
+    
+}
+
+
 
 

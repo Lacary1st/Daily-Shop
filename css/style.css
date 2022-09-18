@@ -154,6 +154,7 @@ iframe{
     display: flex;
     justify-content: space-evenly;
     border-bottom: 1px solid white;
+    flex-wrap: wrap;
 }
 .black ul li{
     list-style-type: none;
