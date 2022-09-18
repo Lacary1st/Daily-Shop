@@ -10,10 +10,17 @@
     height: 500px;
     margin-top: 10px;
 } 
+
+.assist{
+    margin-top: 20px;
+    
+}
 .form-address{ 
     display: flex;
+    flex-wrap: wrap;
 }
 .form{
+    width: 100%;
     padding: 20px;
     margin: 0 auto;
     text-align: center;
@@ -28,8 +35,17 @@
     width: 90px;
     float: left;
 }
+.form-address > div{
+    width: 55%;
+    text-align: center;
+}
+.map iframe{
+    margin: 0 auto;
+    width: 100%;
+}
 
 .address{
+    width: 100%;
     text-align: center;
     margin: 0 auto;
     line-height: 35px;
@@ -61,6 +77,7 @@
     background-color: black;
     color: white;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     border-bottom: 1px solid white;
 }
@@ -84,8 +101,52 @@
     margin-bottom: 15px;
 }
 
+@media  screen and (max-width:1300px){
+    .third{
+        display: none;
+    }
+}
 
+@media  screen and (max-width:700px){
+    .third{
+        display: none;
+    }
+    .hide{
+        display: none;
+    }
+    .latest > div{ 
+        width: 50%;
+        }
+    
+    .black > div{
+         width: 40%;
+         margin-left: 20px;
+         
+    }
+    .acct p{
+        display: none;
+        border: none;
+    }
+    .form-address > div{
+        width: 55%;
+        text-align: center;
+    }
+    .map iframe{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .subscribe{
+        text-align: center;
+    }
+    
+}
 
+@media  screen and (max-width:500px){
+    .cart{
+        display: none;
+    }
+    
+}
 
 
 
